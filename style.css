@@ -1,0 +1,113 @@
+/* style.css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #dff3f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  h1, h2, h3 {
+    color: #333;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  #toggle-skills {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  #toggle-skills:hover {
+    background-color: #0056b3;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #dff3f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ #submit-button{
+  margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  
+ }
+ #submit-button:hover{
+  background-color: #037b80;
+ }
+ #name {
+  background-color: #5ee9ee;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 0px;
+  
+ }
+ #email{
+  background-color: #5ee9ee;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 0px;
+ }
+ #your-education{
+  background-color: #5ee9ee;
+ }
+ #your-skills{
+  background-color: #5ee9ee;
+ }
+ #your-experience{
+  background-color: #5ee9ee;
+ }
+ #share-button{
+  background-color: rgb(13, 190, 190);
+  width: 130px;
+  height: 30px;
+  border-radius: 8px;
+}
+#share-button:hover{
+  background-color: #037b80;
+}
+#download-button{
+  background-color: rgb(13, 190, 190);
+  width: 130px;
+  height: 30px;
+  border-radius: 8px;
+}
+#download-button:hover{
+  background-color: #037b80;
+}

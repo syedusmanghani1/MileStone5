@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unique Path, Shareable link and download as PDF</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Personal Information -->
+         
+        <section id="personal-info" contenteditable="true">
+          <img src="pfp.webp" alt="Profile Picture" class="profile-picture">
+          <hr>
+          <h1>Syed Usman Ghani</h1>
+          <p>Contact: syedusmanghani@gmail.com | +92 1234567890</p>
+        </section>
+
+        <!-- Education  -->
+        <section id="education">
+          <hr>
+          <h2>Education</h2>
+          <ul contenteditable="true">
+            <li>Matriculation in CS (The Crescent Academy) in 2022</li>
+            <li>Intermediate in Pre-Engineering (Delhi Govt. College) in 2024</li>
+          </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+          <hr>
+          <h2>Skills</h2>
+          <ul type="square" contenteditable="true">
+            <li>HTML & CSS</li>
+            <li>Typing</li>
+            <li>Video Editing</li>
+            <li>JavaScript/Typescript</li>
+          </ul>
+        </section>
+      
+        <!-- Work Experience -->
+        <section id="work-experience">
+          <hr>
+            <h2>Work Experience</h2>
+            <p contenteditable="true">Fresh</p>
+
+        </section>
+
+        <!-- Toggle Button -->
+        <button id="toggle-skills">Toggle Skills Section</button> 
+      
+    </div>
+    <br><br>
+    <div class="container1">
+      <h2 id="your-own">Create Your Own Resume</h2>
+   <form id="resume-form">
+      <h3>Name:</h3>
+      <input type="text" id="name" placeholder="Name" required>
+      <h3>Contact:</h3>
+      <input type="text" id="email" placeholder="Email | Contact no." required>
+      <h3>Education:</h3>
+      <textarea name="your-education"  id="your-education"  placeholder="Write about your education here" rows="10" cols="30" required></textarea>
+        <h3>Skills:</h3>
+     <textarea name="your-skills" id="your-skills" placeholder="Write about your skills here" rows="10" cols="30" required></textarea>
+      <h3>Work Experience</h3>
+      <textarea name="your-experience" id="your-experience" placeholder="Write about your work experience here" rows="10" cols="30" required></textarea><br><br>
+      <button type="submit" id="submit-button">Generate Resume</button>
+  </form>
+  <br>
+  <button id="share-button">Share Resume</button> &emsp;
+  <button id="download-button">Download as PDF</button>
+  
+</div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+</body>
+</html>
